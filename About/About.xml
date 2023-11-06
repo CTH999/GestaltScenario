@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Gestalt Scenario</name>
+  <author>CTH2004</author>
+  <packageId>cth.gesten.scen</packageId>
+  <supportedVersions>
+    <li>1.4</li>
+  </supportedVersions>
+  <description>w</description>
+  <modDependencies>
+    <li>
+      <packageId>ludeon.rimworld.biotech</packageId>
+      <displayName>Biotech</displayName>
+    </li>
+
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077</steamWorkshopUrl>
+    </li>
+
+    <li>
+      <packageId>hlx.gestaltengine</packageId>
+      <displayName>Gestalt Engine</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3042401691</steamWorkshopUrl>
+    </li>
+
+    <li>
+      <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+      <displayName>Vanilla Expanded Framework</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013</steamWorkshopUrl>
+    </li>
+
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+<li>ludeon.rimworld.biotech</li>
+    <li>oskarpotocki.vanillafactionsexpanded.core</li>
+    <li>m00nl1ght.unofficialupdates.hugslogpublisher</li>
+    <li>captainarbitrary.hugslibquickstartk</li>
+    <li>hlx.gestaltengine</li>
+    <li>void.charactereditor</li>
+  </loadAfter>
+  <loadBefore>
+  </loadBefore>
+</ModMetaData>
